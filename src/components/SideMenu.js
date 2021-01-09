@@ -39,7 +39,7 @@ const useStyle = makeStyles((theme) => ({
 }));
 export default function SideMenu({ setBackgroundUrl, setOpen, open }) {
   const classes = useStyle();
-  const [photos, setPhotos] = useState([]);
+  const [photos] = useState([]);
   // const readImge = async () => {
   //   setPhotos(await getImages());
   // };
